@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Filtering {
     String vowel;
-    public void Filtering(String origin){
+    public String Filtering(String origin){
         origin = origin.replaceAll("[AaEeIiOoUu]", "");
-        System.out.println(origin.toLowerCase());
+        return String.format(origin.toLowerCase());
     }
 
 }
